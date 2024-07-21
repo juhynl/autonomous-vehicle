@@ -3,12 +3,47 @@ This repository contains the vehicle control proejct for CSE4152 (Programming La
 
 ## Prerequisites
 To install GymSG, please refer to [installGymSG.md].
+The versions below are not accurate. However, these versions are recommended.
 * Python >= 3.8
 * GymSG (using gymSG.zip in this repo)
 * matplotlib >= 3.6.3
 * numpy >= 1.24.4
 * scipy >= 1.10.0
 * opencv-python >= 4.7.0.68
+
+## Usage
+### Running Autonomous Vehicle
+To run the autonomous vehicle, you can execute *autonomous_vehicle.py*.
+```
+python3 autonomous_vehicle.py
+```
+![image](https://github.com/user-attachments/assets/14ae02cd-1330-4626-bc08-37464e11f5ab)
+
+This command displays the autonomous driving and graphs of the PID control.
+
+### Testing Lane Detection
+To test the lane detection module, you can execute *test_lane_detection.py*.
+```
+python3 test/test_lane_detection.py
+```
+After you run the above command, you can drive the car with up, down, left and right keys on your keyboard.
+
+The lane detection is displayed on the Figure 1.
+
+![image](https://github.com/user-attachments/assets/a13278e8-6b49-4dc5-ad7c-9c8b98f95ba8)
+
+### Testing Waypoint Prediction
+To test the waypoint prediction module, you can execute *test_waypoint_prediction.py*.
+```
+python3 test/test_waypoint_prediction.py 
+```
+After you run the above command, you can drive the car with up, down, left and right keys on your keyboard.
+
+The predicted waypoint is displayed on the Figure 1.
+
+![image](https://github.com/user-attachments/assets/46fee002-4c0a-429b-a531-dce9985cb3c3)
+
+
 
 ## Project 
 ![image](https://github.com/user-attachments/assets/406cee66-d332-4e85-a2f9-ee376ba65e29)
