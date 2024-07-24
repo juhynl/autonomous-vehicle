@@ -1,5 +1,5 @@
 # Autonomous Vehicle
-This repository contains the vehicle control proejct for CSE4152 (Programming Languages) at Sogang University, 2023.
+This repository contains the vehicle control proejct for CSE4152 (Advanced Software Practice) at Sogang University, 2023.
 
 ## Prerequisites
 To install GymSG, please refer to [installGymSG.md].
